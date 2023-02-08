@@ -1,0 +1,98 @@
+[
+    {
+      "id": "1",
+      "picture": "https://www.kreedon.com/wp-content/uploads/2021/08/oYDbf5hQAePHEBNZTQMXRA.jpg",
+      "age": "25-30",
+      "name": "Pushups",
+      "about": "Push-ups may seem like a basic exercise that works only your upper arms and chest, but when you do them the right way, they use muscles all over your body. You can do them just about anywhere, they can be adjusted to fit any ability level -- and they’re free!",
+      "time_required": 30
+    },
+    {
+      "id": "2",
+      "picture": "https://eisnerfitness.com/wp-content/uploads/2021/12/frontsquat.jpg",
+      "age": "25-35",
+      "name": "Squats",
+      "about": "Squats burn calories and might help you lose weight. They also lower your chances of injuring your knees and ankles. As you exercise, the movement strengthens your tendons, bones, and ligaments around the leg muscles.",
+      "time_required": 40
+    },
+    {
+      "id": "3",
+      "picture": "https://d3h9ln6psucegz.cloudfront.net/wp-content/uploads/2022/03/Dumbbell-Row.jpg",
+      "age": "22-40",
+      "name": "Dumbbell rows",
+      "about": "The dumbbell row primarily hits muscles on your back, but also improves core stability, while engaging muscles on your shoulder, biceps and triceps. The muscles worked are as follow: Latissiumus dorsi ",
+      "time_required": 20
+    },
+    {
+      "id": "4",
+      "picture": "https://hips.hearstapps.com/hmg-prod/images/2019-menshealth-formcheck-ep38-singlelegdeadlift-ms-mo-edit-v1-00-00-20-15-still007-1568827173.jpg",
+      "age": "25-45",
+      "name": "Single-leg deadlifts",
+      "about": "What does the single leg deadlift work? The single leg deadlift strengthens the posterior chain namely the glutes, hamstrings, lower back and core muscles. Your balance and movement skills will also be improved with this exercise.",
+      "time_required": 30
+    },
+    {
+      "id": "5",
+      "picture":"https://www.kreedon.com/wpcontent/uploads/2021/08/oYDbf5hQAePHEBNZTQMXRA.jpg ",
+      "age": "25-35",
+      "name": "Burpees",
+      "about": "With burpees, the focus is on a full-body calisthenics workout that aims to build muscle strength and endurance in both your lower and upper body. A standard burpee exercise works to strengthen the muscles in your legs, hips, buttocks, abdomen, arms, chest, and shoulders",
+     "time_required": 40
+    },
+    {
+      "id": "6",
+      "picture": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2022/03/27/16483840772910.jpg",
+      "age": "20-30",
+      "name": "Side squats",
+      "about": "The side to side squats activates several muscle groups simultaneously, working the legs, glutes, and core. The squat increases performance and flexibility and the side-to-side movement improves dynamic balance and agility.",
+     "time_required": 45
+    },
+    {
+      "id": "7",
+      "picture": "https://www.muscleandperformance.com/wp-content/uploads/2018/03/pull-ups-for-bigger-back.jpg?width=730",
+      "age": "20-45",
+      "name": "Pull-ups",
+      "about": "To perform a pullup, you start by hanging onto a pullup bar with your palms facing away from you and your body extended fully. You then pull yourself up until your chin is above the bar. Pullups are different than a chinup. With a chinup, your palms and hands face toward you.",
+     "time_required": 30
+    },
+    {
+      "id": "8",
+      "picture": "https://images.askmen.com/1080x540/2021/04/01-125259-how_to_use_a_foam_roller.jpg",
+      "age": "25-35",
+      "name": "Foam Roller",
+      "about": "A foam roller is a lightweight foam cylinder that you use to self-administer deep tissue massage. Foam rolling releases muscle knots, relieves inflammation, and improves overall comfort.",
+      "time_required": 25
+    },
+    {
+      "id": "9",
+      "picture": "https://www.muscleandfitness.com/wp-content/uploads/2019/03/barbell-bentover-row-1109.jpg?quality=86&strip=all",
+      "age": "20-30",
+      "name": "Bent-over",
+      "about": "The bent over row is a multi-jointed exercise that recruits several different muscles. It improves strength in the upper and lower back, glutes, hamstrings, lats, and shoulders.",
+     "time_required": 25
+    },
+    {
+      "id": "10",
+      "picture": "https://www.muscleandperformance.com/wp-content/uploads/2018/03/pull-ups-for-bigger-back.jpg?width=730",
+      "age": "20-45",
+      "name": "Pull-ups",
+      "about": "To perform a pullup, you start by hanging onto a pullup bar with your palms facing away from you and your body extended fully. You then pull yourself up until your chin is above the bar. Pullups are different than a chinup. With a chinup, your palms and hands face toward you.",
+     "time_required": 30
+    },
+    {
+      "id": "11",
+      "picture": "https://www.muscleandperformance.com/wp-content/uploads/2018/03/pull-ups-for-bigger-back.jpg?width=730",
+      "age": "20-45",
+      "name": "Pull-ups",
+      "about": "To perform a pullup, you start by hanging onto a pullup bar with your palms facing away from you and your body extended fully. You then pull yourself up until your chin is above the bar. Pullups are different than a chinup. With a chinup, your palms and hands face toward you.",
+     "time_required": 30
+    },
+    {
+      "id": "12",
+      "picture": "https://www.muscleandperformance.com/wp-content/uploads/2018/03/pull-ups-for-bigger-back.jpg?width=730",
+      "age": "20-45",
+      "name": "Pull-ups",
+      "about": "To perform a pullup, you start by hanging onto a pullup bar with your palms facing away from you and your body extended fully. You then pull yourself up until your chin is above the bar. Pullups are different than a chinup. With a chinup, your palms and hands face toward you.",
+     "time_required": 30
+    }
+  ]
