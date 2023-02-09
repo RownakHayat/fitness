@@ -1,0 +1,22 @@
+.header{
+    height: 80px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.header img{
+    width: 60px;
+    padding: 8px;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-left: 36px;
+}
+.header a:hover{
+    color: chocolate;
+}
