@@ -13,7 +13,7 @@ const Activities = () => {
     },[])
 
     const handleClick =(activity)=>{
-        console.log(activity)
+        // console.log(activity)
         const newActivity = [...exerciseTime, activity];
         setExercisetime(newActivity);
     }
@@ -25,17 +25,12 @@ const Activities = () => {
                 key={activity.id}
                 activity={activity}
                 handleClick ={handleClick}
-                
                 ></Activity>)
                }
             </div>
-            <div className='owner'>
+            <div className='owner-container'>
                 <Owner exerciseTime={exerciseTime}></Owner>
 
-            </div>
-            <div  className='time-exercise'>
-                <h4>Time Required</h4>
-                <p>Time Start : {exerciseTime.length}</p>
             </div>
         </div>
     );

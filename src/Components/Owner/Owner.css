@@ -1,4 +1,161 @@
-.weight .height .age{
-    display: flex;
+
+.owner{
+    position: sticky;
+    top: 0;
+    padding: 8px 10px;
 }
 
+.photo {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+
+.person {
+
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+
+
+
+
+
+.my-info {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f2f4fa;
+    margin-top: 30px;
+    padding: 10px 10px;
+    border-radius: 15px;
+
+
+}
+
+.weight,
+.height,
+.age {
+
+    text-align: center;
+
+}
+
+
+
+.circle {
+    height: 45px;
+    width: 45px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+.circle:hover {
+    background: blue;
+    color: white;
+}
+
+.add_a_break_circle button {
+
+    border: none;
+    background: none;
+}
+
+
+
+
+.add_a_break_circle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f2f4fa;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.add_a_break {
+
+    margin-top: 30px;
+}
+
+.add_a_break_title {
+
+    margin-bottom: 30px;
+}
+
+.exercise_time {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f2f4fa;
+    padding: 20px 10px;
+    border-radius: 15px;
+}
+
+.break_time {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f2f4fa;
+    margin-top: 10px;
+    padding: 20px 10px;
+    border-radius: 15px;
+
+}
+
+.exercise_detail {
+
+    margin-top: 30px;
+}
+
+.exercise_detail_title {
+
+    margin-bottom: 30px;
+
+}
+
+.activity_complete_btn {
+
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+.activity_btn {
+
+    width: 100%;
+    height: 40px;
+    background: #5d5fef;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .owner {
+
+        margin: auto;
+        margin-top: 20px;
+
+    }
+}
