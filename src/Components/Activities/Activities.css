@@ -17,8 +17,19 @@
 }
 @media screen and (max-width:1100px) {
     .activity-container{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
     
 }
 
+@media screen and (min-width: 576px) {
+    
+    .activities-container .activity-container{
+        display: flex;
+        display: grid;
+        grid-template-columns: 1, 1fr;
+
+    }
+    
+    
+}

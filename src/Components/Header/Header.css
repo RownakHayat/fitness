@@ -20,3 +20,9 @@
 .header a:hover{
     color: chocolate;
 }
+@media screen and (max-width:576px) {
+    .header{
+        display: flex;
+    }
+    
+}

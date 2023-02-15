@@ -1,21 +1,23 @@
 import React, { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
 import Owner from '../Owner/Owner';
+
 import './Activities.css';
 
 const Activities = () => {
     const [activities, setActivitys] = useState([]);
-    const [exerciseTime, setExercisetime] = useState([])
+
+   const [excercisetime, setExcerciseTime] = useState([]);
     useEffect(()=>{
         fetch('activityDB.json')
         .then(res =>res.json())
         .then(data =>setActivitys(data))
     },[])
 
-    const handleClick =(activity)=>{
+    const handleAddClick = (activity)=>{
         // console.log(activity)
-        const newActivity = [...exerciseTime, activity];
-        setExercisetime(newActivity);
+        const newactivity =[...excercisetime, activity];
+        setExcerciseTime(newactivity);
     }
     return (
         <div className='activities-container'>
@@ -24,12 +26,13 @@ const Activities = () => {
                 activities.map(activity =><Activity 
                 key={activity.id}
                 activity={activity}
-                handleClick ={handleClick}
+                handleAddClick ={handleAddClick}
                 ></Activity>)
                }
             </div>
             <div className='owner-container'>
-                <Owner exerciseTime={exerciseTime}></Owner>
+                
+                <Owner excercisetime={excercisetime}></Owner>
 
             </div>
         </div>
