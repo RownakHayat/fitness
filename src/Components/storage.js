@@ -26,16 +26,26 @@ const addTodb = (e) => {
     }
 
 
-   
+  
+   }
 
 
+const getStoredTime = () =>{
+    let storeTime;
 
-
-
-
+    const sotoredTime = localStorage.getItem('break-time');
+    if (sotoredTime) {
+        storeTime = JSON.parse(sotoredTime)
+    }
+    return storeTime;
 }
 
+
+
+
+
 export {
-    addTodb
-   
+    addTodb,
+    getStoredTime
+    
 }
