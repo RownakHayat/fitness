@@ -4,6 +4,7 @@ import { faClock} from '@fortawesome/free-solid-svg-icons'
 
 
 import './Activity.css'
+import { useState } from 'react';
 
 
 
@@ -11,10 +12,13 @@ const Activity = ({activity, handleAddClick}) => {
     // console.log(props.activity)
 //    const {activity, handleClick}= props;
 
+const [active, setActive] = useState(false);
 
 const {name, picture, about, age, time_required } = activity;
 
-    
+const handelClick = ()=>{
+    setActive(!active);
+}
     
     return (
         <div className='activity'>

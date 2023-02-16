@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
 import Owner from '../Owner/Owner';
+import { addTodb } from '../storage';
+
 
 import './Activities.css';
 
@@ -18,6 +20,7 @@ const Activities = () => {
         // console.log(activity)
         const newactivity =[...excercisetime, activity];
         setExcerciseTime(newactivity);
+        addTodb(activity.id)
     }
     return (
         <div className='activities-container'>

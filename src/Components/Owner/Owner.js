@@ -3,10 +3,13 @@ import './Owner.css'
 import img from '../../images/Owner.jpg'
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { addTodb } from '../storage';
+
 const Owner = ({excercisetime}) => {
     const [time, setTime] = useState(0);
     const handelClick = (e)=>{
         setTime(e);
+        addTodb(e)
     }
     // console.log(excercisetime);
     let exerciseTotalTime = 0;
@@ -15,7 +18,7 @@ const Owner = ({excercisetime}) => {
     }
 
     const notify = ()=>{
-       console.log(notify);
+    //    console.log(notify);
        const total = exerciseTotalTime + time;
        toast.success('Total Time:' + '' + total + 'min',{
         position: "top-center",
@@ -46,7 +49,7 @@ const Owner = ({excercisetime}) => {
                     <p>Weight</p>
                 </div>
                 <div className='height'>
-                    <h3>6.8</h3>
+                    <h3>5.9</h3>
                     <p>Height</p>
                 </div>
                 <div className='age'>
