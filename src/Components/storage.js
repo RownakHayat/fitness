@@ -22,11 +22,11 @@ const addTodb = (e) => {
     else {
 
         storeTime[e] = 1;
-
+        localStorage.setItem('break-time', JSON.stringify(storeTime));
     }
 
 
-    localStorage.setItem('break-time', JSON.stringify(storeTime));
+   
 
 
 
@@ -37,4 +37,5 @@ const addTodb = (e) => {
 
 export {
     addTodb
+   
 }
