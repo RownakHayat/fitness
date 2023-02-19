@@ -22,23 +22,15 @@ const addTodb = (e) => {
     else {
 
         storeTime[e] = 1;
-        localStorage.setItem('break-time', JSON.stringify(storeTime));
+        
     }
 
-
+    localStorage.setItem('break-time', JSON.stringify(storeTime));
   
    }
 
 
-const getStoredTime = () =>{
-    let storeTime;
 
-    const sotoredTime = localStorage.getItem('break-time');
-    if (sotoredTime) {
-        storeTime = JSON.parse(sotoredTime)
-    }
-    return storeTime;
-}
 
 
 
@@ -46,6 +38,6 @@ const getStoredTime = () =>{
 
 export {
     addTodb,
-    getStoredTime
+  
     
 }
