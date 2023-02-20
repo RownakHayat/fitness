@@ -75,7 +75,7 @@ const Owner = ({excercisetime}) => {
                 </div>
                 <div>
                     <h3>Break Time</h3>
-                    <p>{time}minute</p>
+                    <p id="break-time">{time}minute</p>
                 </div>
                 <div>
                     <button onClick={notify} className='activity_btn'>Activity Complete</button>

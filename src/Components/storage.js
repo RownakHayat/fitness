@@ -1,7 +1,10 @@
 const addTodb = (e) => {
     let storeTime;
+    const activity = document.getElementById('active').value;
+    const breaktime = document.getElementById('break-time').value;
 
-    const sotoredTime = localStorage.getItem('break-time');
+   console.log(activity, breaktime);
+    const sotoredTime = localStorage.getItem('break-time', 'active');
     if (sotoredTime) {
         storeTime = JSON.parse(sotoredTime)
     }
@@ -25,7 +28,7 @@ const addTodb = (e) => {
         
     }
 
-    localStorage.setItem('break-time', JSON.stringify(storeTime));
+    localStorage.setItem('break-time','active', JSON.stringify(storeTime));
   
    }
 
